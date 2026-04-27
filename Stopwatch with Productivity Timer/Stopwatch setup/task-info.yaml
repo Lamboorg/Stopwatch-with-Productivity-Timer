@@ -41,15 +41,6 @@ files:
   - name: build.gradle
     visible: true
     learner_created: false
-  - name: src/main/res/layout/dialog_settings.xml
-    visible: true
-    learner_created: true
-  - name: src/main/res/values-night/styles.xml
-    visible: true
-    learner_created: true
-  - name: src/main/res/values-night/colors.xml
-    visible: true
-    learner_created: true
 feedback_link: https://hyperskill.org/projects/542/stages/3130/implement#comment
 status: Solved
 record: -1

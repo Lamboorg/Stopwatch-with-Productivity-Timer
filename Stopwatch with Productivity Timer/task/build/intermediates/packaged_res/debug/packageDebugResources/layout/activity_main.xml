@@ -62,16 +62,19 @@
             android:textSize="16sp"
             android:text="Settings"/>
 
-    <ProgressBar
+    <com.google.android.material.progressindicator.CircularProgressIndicator
             android:id="@+id/progressBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
-
-
-
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:indicatorSize="280dp"
+            app:trackThickness="14dp"
+            app:trackCornerRadius="8dp"
+            android:max="100"
+            android:progress="0"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="@id/textView"
+            app:layout_constraintBottom_toBottomOf="@id/textView"
+            app:layout_constraintStart_toStartOf="@id/textView"
+            app:layout_constraintEnd_toEndOf="@id/textView"
+            app:trackColor="#444444"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

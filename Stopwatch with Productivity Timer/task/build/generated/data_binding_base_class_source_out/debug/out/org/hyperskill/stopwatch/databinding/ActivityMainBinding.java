@@ -4,7 +4,6 @@ package org.hyperskill.stopwatch.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +11,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.progressindicator.CircularProgressIndicator;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,7 +22,7 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ProgressBar progressBar;
+  public final CircularProgressIndicator progressBar;
 
   @NonNull
   public final MaterialButton resetButton;
@@ -36,9 +36,10 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ProgressBar progressBar,
-      @NonNull MaterialButton resetButton, @NonNull MaterialButton settingsButton,
-      @NonNull MaterialButton startButton, @NonNull TextView textView) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull CircularProgressIndicator progressBar, @NonNull MaterialButton resetButton,
+      @NonNull MaterialButton settingsButton, @NonNull MaterialButton startButton,
+      @NonNull TextView textView) {
     this.rootView = rootView;
     this.progressBar = progressBar;
     this.resetButton = resetButton;
@@ -75,7 +76,7 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.progressBar;
-      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      CircularProgressIndicator progressBar = ViewBindings.findChildViewById(rootView, id);
       if (progressBar == null) {
         break missingId;
       }

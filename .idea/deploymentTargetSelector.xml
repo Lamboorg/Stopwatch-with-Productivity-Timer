@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="Stopwatch_with_Productivity_Timer-task">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-04-20T15:45:01.784475106Z">
+        <DropdownSelection timestamp="2026-04-27T13:25:27.776626273Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/home/lamboorg/.android/avd/Small_Phone.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=49171JEKB11157" />
             </handle>
           </Target>
         </DropdownSelection>
