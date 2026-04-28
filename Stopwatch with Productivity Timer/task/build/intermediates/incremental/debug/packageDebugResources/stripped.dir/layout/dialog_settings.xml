@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="20dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center">
+        <EditText
+                android:id="@+id/upperLimitEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="mm"
+                android:inputType="number"/>
+        <TextView
+                android:id="@+id/seperator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"/>
+
+        <EditText
+                android:id="@+id/upperLimitEditTextTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ss"
+                android:inputType="number"/>
+
+    </LinearLayout>
+</FrameLayout>
