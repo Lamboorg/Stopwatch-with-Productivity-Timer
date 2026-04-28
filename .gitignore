@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+**/build/
+gradle-app.setting
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Local config (never commit!)
+local.properties
+
+# Mac
+.DS_Store
+
+# Hyperskill plugin junk
+util/
+course-info.yaml
+course-remote-info.yaml
+*-info.yaml
+*-remote-info.yaml
+task.html
+lesson-info.yaml
+
+# Logs / captures / APKs
+*.log
+captures/
+*.apk
+*.ap_
+*.dex
+
+# Native build
+.externalNativeBuild/
+.cxx/
