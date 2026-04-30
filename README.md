@@ -1,2 +1,2 @@
 # StopwatchWithProductivityTimer
-Stopwatch with Productivity Timer (Android)
+Stopwatch with Productivity Timer.
