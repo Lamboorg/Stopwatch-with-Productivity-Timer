@@ -1,0 +1,10 @@
+*.html linguist-vendored
+*.css  linguist-vendored
+*.js   linguist-vendored
+
+**/build/** linguist-generated
+**/.gradle/** linguist-generated
+**/.idea/** linguist-generated
+
+**/task.html linguist-generated
+**/task-info.yaml linguist-generated
