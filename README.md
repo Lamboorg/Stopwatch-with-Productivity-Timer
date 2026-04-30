@@ -6,7 +6,7 @@ Built as part of the [Hyperskill Android Developer track](https://hyperskill.org
 
 ## Screenshots
 
-![Main screen](screenshots/screenshot.png)
+<img src="screenshots/screenshot.png" alt="Main screen" width="300"/>
 
 ## Features
 
